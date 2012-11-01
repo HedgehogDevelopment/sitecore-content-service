@@ -1,0 +1,76 @@
+----item----
+version: 1
+id: {DD2E344B-F8FE-4706-BC20-02A1040E3EA5}
+database: master
+path: /sitecore/content/Scaas-Demo/Single-Page-App/Credits
+parent: {0760C545-51DE-4E48-A836-3DFEB2E845B3}
+name: Credits
+master: {00000000-0000-0000-0000-000000000000}
+template: {C030F1EE-38CE-426E-8236-68CFEA170AAB}
+templatekey: Content
+
+----version----
+language: en
+version: 1
+revision: d941d4fe-8409-44e6-a392-8c603c63561f
+
+----field----
+field: {C0B01DB1-69F2-4B6B-BF86-91745DC61B7B}
+name: ContentTitle
+key: contenttitle
+content-length: 7
+
+Credits
+----field----
+field: {821946AE-4908-4B3B-8C43-9154BC01E1F7}
+name: ContentImage
+key: contentimage
+content-length: 146
+
+<image mediaid="{5D1062E2-ECCA-49FF-9A59-5154E4F09F74}" mediapath="/Images/SPA/SeanKearney" src="~/media/5D1062E2ECCA49FF9A595154E4F09F74.ashx" />
+----field----
+field: {DC4F6911-4027-4996-98E3-4D46696F6966}
+name: ContentCopy
+key: contentcopy
+content-length: 1809
+
+<p>Sean Kearney is a Senior Solutions Architect and two time Sitecore MVP at <a href="http://www.hhogdev.com">Hedgehog Development</a>, LLC. , a Long Island, NY based custom application development and integration services consultancy.</p>
+<p>Sean has been an active .NET developer since 2000, focused on CMS and Community based web sites.&nbsp;&nbsp; In 2007, Sean joined Hedgehog Development, and immediately got up to speed on Sitecore, by working on The Knot - a community web site with over 3+ million unique visitors a month. Since then Sean has become the go-to guy for all Sitecore projects at Hedgehog Development.</p>
+<p>Working on a broad range of Sitecore projects, and utilizing his years of experience as a software developer and architect, Sean has created the standard architecture methodology used by Hedgehog Development for all Sitecore projects.&nbsp; Sean has also been a resource for Sitecore customers and other Sitecore partners helping them to define their development approach, and training teams on the Hedgehog approach to Sitecore based team development.</p>
+<p>Sean recognized that for Sitecore development to be fully integrated into full life cycle software architecture, the Sitecore items needed to be somehow brought into Source control. Working with Charles Turano, another Sitecore MVP at Hedgehog Development; they co-created <a href="http://TeamDevelopmentForSitecore.com">Team Development for Sitecore </a>(TDS). </p>
+<p>Sean was named one of Long Island&rsquo;s Top 20 technologists, by the Long Island Software and Technology Network. Most of Sean&rsquo;s time, outside of developing and writing about technology on his blog <a href="http://seankearney.com">seankearney.com</a>, is spent helping to raise his 19 month old triplet daughters and 4 year old son.</p>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120827T165052
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 18
+
+extranet\Anonymous
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d941d4fe-8409-44e6-a392-8c603c63561f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20121031T142842:634872905228712560
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Single Page Application Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Single Page Application demonstrating pulling content from Sitecore.">
+    <meta name="author" content="Hedgehog Development (http://www.hhogdev.com)">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/site.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="css/jquery.lightbox-0.5.css" rel="stylesheet" media="screen" />
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <a class="brand" href="/"><img src="/img/logo.png" />Singe Page App</a>
+                
+                <div class="nav-collapse">
+                    <ul class="nav" data-bind="foreach: Navigation">
+                        <li><a href="#" data-bind="text: $data.Name, click: $root.itemSelected"></a></li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </div>
+    </div>
+     
+    <div class="container" style="display:none" id="application_window">
+        <div class="row">
+            
+            <!-- Left Column: Hide on Phones -->
+            <div class="span3 hidden-phone">
+                <ul class="thumbnails" data-bind="foreach: Promotion">
+                  <li class="span3">
+                    <div class="thumbnail promotion">
+                      <a data-bind="attr: { href: PromotionUrl.Path }" ><img class="img-rounded" data-bind="attr: { src: $root.resourceUrl(PromotionImage.Path), alt: PromotionImage.AlternateText }" /></a>
+                      <h3 data-bind="text: PromotionTitle"></h3>
+                      <p data-bind="html: PromotionCopy"></p>
+                    </div>
+                  </li>
+                </ul>
+            </div>
+
+            <!-- Content Column -->
+            <div class="span9" id="application_container" >
+                <div id="content" data-bind="with: Content">
+                    <h1 data-bind="text: ContentTitle"></h1>
+                    <div class="content-image hidden-phone" data-bind="if: ContentImage.Path">
+                        <img class="img-rounded" data-bind="attr: { src: $root.resourceUrl(ContentImage.Path), alt: ContentImage.AlternateText }" />
+                    </div> 
+                    <div class="content-text" data-bind="html: ContentCopy"></div>
+                    <div class="clear"></div>
+                </div>
+
+                <div id="articles" class="accordion" data-bind="foreach: Articles">
+                    <div class="accordion-element">
+                        <div class="collapsible-title">
+                            <span class="icon-chevron-up icon"></span>
+                            <h2 data-bind="text: ArticleTitle"></h2>
+                        </div>
+                        <div class="article collapsible">
+                            <h4 data-bind="text: moment(ArticleDate).format('MMMM Do YYYY, h:mma')"></h4>
+                            <div class="article-image" data-bind="if: ArticleImage.Path">
+                                <a data-bind="attr: { href: $root.resourceUrl(ArticleImage.Path)}"><img class="img-rounded" data-bind="attr: { src: $root.resourceUrl(ArticleImage.Path), alt: ArticleImage.AlternateText }" /></a>
+                            </div> 
+                            <div class="content-text" data-bind="html: ArticleCopy"></div>
+                            <div class="clear"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+<script src="js/lib/jquery-1.7.2.min.js"></script>
+<script src="js/lib/jquery.lightbox-0.5.pack.js"></script>
+<script src="js/lib/jquery.XDomainRequest.js"></script>
+<script src="js/lib/moment.min.js"></script>
+<script src="js/lib/knockout-2.1.0.js"></script>
+<script src="js/lib/bootstrap.min.js"></script>
+<script src="js/sitecore.content.js"></script>
+<script src="js/single-page-app.js"></script>
+
+</body>
+</html>
+
+
+
+ 

@@ -1,0 +1,95 @@
+----item----
+version: 1
+id: {9A753B49-0ADB-4AAA-A4B2-111D6104336D}
+database: master
+path: /sitecore/content/Scaas-Demo/Content/Articles/About-The-Session
+parent: {A7321791-47B3-43CD-B3DD-604B76200704}
+name: About-The-Session
+master: {00000000-0000-0000-0000-000000000000}
+template: {A160AF9B-4D3F-41A6-AB5A-CAD61E67F119}
+templatekey: Article
+
+----field----
+field: {F7EE3909-CE8C-4735-8CF9-4C1BE51AF898}
+name: ArticleDate
+key: articledate
+content-length: 15
+
+20121024T111500
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+100
+----version----
+language: en
+version: 1
+revision: d2d86d15-66dc-4140-a4b8-e3e91b5d40fc
+
+----field----
+field: {EEFD8188-8454-4D0A-9DB1-438E5566A511}
+name: ArticleTitle
+key: articletitle
+content-length: 40
+
+Welcome to Sitecore Content as a Service
+----field----
+field: {FC928CC8-3461-48BA-9383-0B9B7383888D}
+name: ArticleCopy
+key: articlecopy
+content-length: 1327
+
+<p>With the proliferation of mobile applications as well as "single page applications (SPA)" we are seeing rendering logic move from the server to the client. This movement, when thought about with regard to content, is driving the need for Sitecore to support a pure content API or service. It was from this evolution that we've termed "Sitecore Content as a Service."</p>
+<p>In this session we will outline what a pure content service for Sitecore would look like. We will cover topics such as Content Models, Items mapping, Serialization, the ASP.Net Web API and how these tie together to make a consumable service. We will also look at a javascript client that can consume our Sitecore content.</p>
+<p>Littered throughout the presentation will be code demonstrations up until the final demo which will reveal an application (not a Sitecore site) showing content provided by our Sitecore Content Service.</p>
+<p><b>Five Take Aways</b>
+<li>What &ldquo;Sitecore Content as a Service&rdquo; means and knowing the problems it will solve.</li>
+<li>The art of defining a lightweight content model</li>
+<li>Convention, not configuration, based mapping of Sitecore items to Content Models</li>
+<li>Leverage the new ASP.NET Web API to serve Sitecore content</li>
+<li>How to consume Sitecore content with Javascript</li>
+</p>
+----field----
+field: {864343D0-DA30-4A80-8B28-5A27C41EBC6D}
+name: ArticleImage
+key: articleimage
+content-length: 140
+
+<image mediaid="{D7CEEF7E-44CA-4BE4-B523-4C73226D0ADF}" mediapath="/Images/SPA/SCAAS" src="~/media/D7CEEF7E44CA4BE4B5234C73226D0ADF.ashx" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120822T195445
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 18
+
+extranet\Anonymous
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d2d86d15-66dc-4140-a4b8-e3e91b5d40fc
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20121031T143110:634872906705595470
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

@@ -1,0 +1,94 @@
+----item----
+version: 1
+id: {5CCF2A07-1CF5-4CF9-9F27-36A0F665AAB2}
+database: master
+path: /sitecore/content/Scaas-Demo/Content/Articles/TDS-4
+parent: {A7321791-47B3-43CD-B3DD-604B76200704}
+name: TDS-4
+master: {00000000-0000-0000-0000-000000000000}
+template: {A160AF9B-4D3F-41A6-AB5A-CAD61E67F119}
+templatekey: Article
+
+----field----
+field: {F7EE3909-CE8C-4735-8CF9-4C1BE51AF898}
+name: ArticleDate
+key: articledate
+content-length: 15
+
+20121021T144400
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+500
+----version----
+language: en
+version: 1
+revision: e2e95c40-3483-4bde-b9ea-486b48fb9a99
+
+----field----
+field: {EEFD8188-8454-4D0A-9DB1-438E5566A511}
+name: ArticleTitle
+key: articletitle
+content-length: 53
+
+Newest Features in Team Development for Sitecore 4.0a
+----field----
+field: {FC928CC8-3461-48BA-9383-0B9B7383888D}
+name: ArticleCopy
+key: articlecopy
+content-length: 1445
+
+<p>Team Development for Sitecore 4.0 was released 10/1, this release comes after months of extensive beta testing by some of Hedgehog&rsquo;s largest clients and showcases three key new features that substantially enhance the Sitecore development experience. </p>
+<p>These key features are: </p>
+<ul>
+    <li><span style="text-decoration: underline;">Automatic Code Generation </span>&mdash; Makes coding quicker with less room for errors by eliminating the need for tedious, manual code generation. </li>
+    <li><span style="text-decoration: underline;">Support for Configuration Transforms </span>--- Eliminates the need for custom MS Build script or custom settings, so you can just build your solution and your config transformation will be made. </li>
+    <li><span style="text-decoration: underline;">Item Merging </span>--- Adds more granularity by allowing you to update Sitecore for some fields and update the TDS project for others. </li>
+</ul>
+<p>TDS 4.0 also offers: </p>
+<ul>
+    <li>Compatibility with Visual Studio 2012 </li>
+    <li>Compatibility with Sitecore 6.5 and higher </li>
+    <li>The ability to duplicate an item in Sitecore Rocks and add it to TDS </li>
+    <li>Added web application special characters to build process </li>
+    <li>The option to allow for override of a project setting from MS Build </li>
+</ul>
+<p>Come to our Tech booth to see how TDS can help improve your Sitecore development.</p>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20121011T144441
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 20
+
+sitecore\mshaw_admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+e2e95c40-3483-4bde-b9ea-486b48fb9a99
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20121015T142028:634859076284479906
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 22
+
+sitecore\sstriga_admin

@@ -1,0 +1,75 @@
+----item----
+version: 1
+id: {88B8B5F6-2E2E-48DC-9B1F-92B9CB45E6F2}
+database: master
+path: /sitecore/content/Scaas-Demo/Single-Page-App/About
+parent: {0760C545-51DE-4E48-A836-3DFEB2E845B3}
+name: About
+master: {00000000-0000-0000-0000-000000000000}
+template: {C030F1EE-38CE-426E-8236-68CFEA170AAB}
+templatekey: Content
+
+----version----
+language: en
+version: 1
+revision: ba48adfb-9d77-43dd-bd79-01e4c19999b3
+
+----field----
+field: {C0B01DB1-69F2-4B6B-BF86-91745DC61B7B}
+name: ContentTitle
+key: contenttitle
+content-length: 10
+
+About Page
+----field----
+field: {821946AE-4908-4B3B-8C43-9154BC01E1F7}
+name: ContentImage
+key: contentimage
+content-length: 140
+
+<image mediaid="{D7CEEF7E-44CA-4BE4-B523-4C73226D0ADF}" mediapath="/Images/SPA/SCAAS" src="~/media/D7CEEF7E44CA4BE4B5234C73226D0ADF.ashx" />
+----field----
+field: {DC4F6911-4027-4996-98E3-4D46696F6966}
+name: ContentCopy
+key: contentcopy
+content-length: 800
+
+<p>Spa.sitecoresymposium.com&nbsp;is a pure content service from Sitecore. This site is quite beautiful in its simplicity. The site is no more than a .HTML file, that uses Javascript/AJAX to pull the content from Sitecore. </p>
+<p>Creating a Single Page Applications allows for the content editor with the least amount of Sitecore experience to still deploy their content to the website. </p>
+<p>The pure content API allows for easy transition between devices as well as reduces the confusion between browsers. This is driving the need for Sitecore to support pure content API or a service.</p>
+<p>The site uses the&nbsp;<a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a> framework for the layout which gives me the ability to easily code my structure around their framework.</p>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20120827T165000
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 18
+
+extranet\Anonymous
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+ba48adfb-9d77-43dd-bd79-01e4c19999b3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20121031T143019:634872906196273795
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

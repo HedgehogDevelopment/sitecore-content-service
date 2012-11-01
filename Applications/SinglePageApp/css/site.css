@@ -1,0 +1,53 @@
+﻿body
+{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.navbar a.brand img{
+    height: 25px;
+}
+
+.content-image, .article-image
+{
+    float: right;
+    margin: 5px;
+}
+
+.content-image img,
+.article-image img{
+    width:300px;
+}
+
+.promotion{
+    padding: 10px 20px;
+}
+
+.clear
+{
+    clear:both;
+}
+
+.accordion-element
+{
+    border-bottom: 1px solid #ddd;
+}
+
+.collapsed .collapsible
+{
+    display: none;
+}
+
+.accordion .collapsible-title
+{
+    color: #08c;
+    cursor: pointer;
+}
+
+.accordion .collapsible-title .icon
+{
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+    border: none;
+}
