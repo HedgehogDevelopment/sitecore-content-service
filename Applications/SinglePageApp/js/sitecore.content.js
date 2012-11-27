@@ -33,7 +33,7 @@ Description:
 
 Usage:
     var client = new Sitecore.Client();
-    client.serviceHost = '/';
+    client.serviceHost = '/'; 
     client.servicePrefix = 'api';
 
     client.getItem('/sitecore/content/home', function (data, r, e) {
@@ -96,14 +96,9 @@ if (Sitecore.Client === undefined) {
         /// <field name="servicePrefix" type="string" mayBeNull="false">
         ///     The path to the content service. no leading or trailing slash.
         /// </field>
-        /// <field name="apiVersion" type="string" mayBeNull="true">
-        ///     The API Version
-        /// </field>
-
         this.asyncAjax = true;
         this.serviceHost = '/';
         this.servicePrefix = 'api';
-        this.apiVersion = "1.0";
     }
 
     Sitecore.Client.prototype.getItem = function (key, successCallback) {
@@ -184,7 +179,7 @@ if (Sitecore.Client === undefined) {
     }
 
     Sitecore.Client.prototype.ajax = function (method, key, callback, error) {
-        /// <summary> Low level utility function to call the Salesforce endpoint.</summary>
+        /// <summary> Low level utility function to call the Sitecore endpoint.</summary>
         /// <param name="method" optional="false" type="string">
         ///     The service method to call
         /// </param>
@@ -235,7 +230,7 @@ if (Sitecore.Client === undefined) {
             url: url,
             cache: false,
             success: callback,
-            error: error           
+            error: error
         });
     }
 }
