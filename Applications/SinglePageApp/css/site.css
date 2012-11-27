@@ -4,7 +4,8 @@
     padding-bottom: 40px;
 }
 
-.navbar a.brand img{
+.navbar a.brand img
+{
     height: 25px;
 }
 
@@ -14,18 +15,20 @@
     margin: 5px;
 }
 
-.content-image img,
-.article-image img{
-    width:300px;
-}
+    .content-image img,
+    .article-image img
+    {
+        width: 300px;
+    }
 
-.promotion{
+.promotion
+{
     padding: 10px 20px;
 }
 
 .clear
 {
-    clear:both;
+    clear: both;
 }
 
 .accordion-element
@@ -44,10 +47,10 @@
     cursor: pointer;
 }
 
-.accordion .collapsible-title .icon
-{
-    float: right;
-    margin-top: 15px;
-    margin-right: 20px;
-    border: none;
-}
+    .accordion .collapsible-title .icon
+    {
+        float: right;
+        margin-top: 15px;
+        margin-right: 20px;
+        border: none;
+    }
