@@ -9,6 +9,8 @@ namespace HedgehogDevelopment.Scaas.Web
     {
         protected void Application_Start(object sender, EventArgs e)
         {
+            System.Web.Mvc.AreaRegistration.RegisterAllAreas();
+
             // Create our ASP.NET Web API route
             // The route would be: http://[server]/api/{action}/{key}
             // Working actions are:
