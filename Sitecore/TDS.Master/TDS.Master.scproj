@@ -19,10 +19,6 @@
     <AssemblyName>TDS.Master</AssemblyName>
     <Name>TDS.Master</Name>
     <RootNamespace>TDS.Master</RootNamespace>
-    <SccProjectName>SAK</SccProjectName>
-    <SccProvider>SAK</SccProvider>
-    <SccAuxPath>SAK</SccAuxPath>
-    <SccLocalPath>SAK</SccLocalPath>
     <SitecoreDatabase>master</SitecoreDatabase>
     <EnableCodeGeneration>True</EnableCodeGeneration>
     <CodeGenFile>CodeGeneratedContentItems.cs</CodeGenFile>
