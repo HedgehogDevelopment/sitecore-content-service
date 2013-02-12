@@ -61,7 +61,7 @@ Example Calls
 -------------
 Get a specific item
 
-    http://[host name]/api/item/sitecore/content/Scass-Demo/Content/Articles/About-The-Session
+    http://[host name]/api/item/sitecore/content/Scaas-Demo/Content/Articles/About-The-Session
 
 Equivalent call using the ID would be
     
@@ -69,7 +69,7 @@ Equivalent call using the ID would be
 
 Fetch all children of the Articles repository:
     
-    http://[host name]/api/item/sitecore/content/Scass-Demo/Content/Articles
+    http://[host name]/api/item/sitecore/content/Scaas-Demo/Content/Articles
 
 The rest of the actions follow the same convention except if you require multiple items. Multiple items are called where the 'key' is a comma separated list of IDs
     
@@ -77,7 +77,7 @@ The rest of the actions follow the same convention except if you require multipl
 
 Example JSON Result
 -------------
-This call `http://[host name]/api/item/sitecore/content/Scass-Demo/Content/Articles/About-The-Session` yields:
+This call `http://[host name]/api/item/sitecore/content/Scaas-Demo/Content/Articles/About-The-Session` yields:
     
     {
         "$type": "HedgehogDevelopment.Scaas.Models.ArticleItem, HedgehogDevelopment.Scaas.Models",
