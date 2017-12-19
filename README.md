@@ -1,4 +1,5 @@
-<img src="http://www.hhogdev.com/Images/newsletter/logo_hedgehog.jpg" alt="Hedgehog Development" width="203" height="65" border="0">
+<img src="https://www.hhog.com/-/media/PublicImages/Hedgehog/Hedgehog-logo-4color-275x46.jpg" alt="Hedgehog Development" border="0"> 
+
 ================================
 
 What is Sitecore Content as a Service?
@@ -7,7 +8,9 @@ Sitecore Content as a Service is a concept that has been used on various project
 
 This code introduces an abstraction of the Sitecore CMS, a convention based mapping framework as well as a 'REST' API inside of the Sitecore web site. Three wrappers to the REST API are also provided. The JavaScript, iOS, and .NET APIs allow developers to write external applications that consume Sitecore content.
 
-This code was presented at Sitecore Symposium 2012 (North America) by [Sean Kearney](http://seankearney.com) and should be considered protoype quality. 
+This code was presented at Sitecore Symposium 2012 (North America) by [Sean Kearney](http://seankearney.com) and should be considered protoype quality.
+
+Blog post about this feature: [http://seankearney.com/post/Sitecore-Content-as-a-Service](http://seankearney.com/post/Sitecore-Content-as-a-Service) 
 
 Known Issues
 ------------
